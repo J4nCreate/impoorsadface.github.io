@@ -1,0 +1,417 @@
+html {
+scrollbar-face-color: #646464;
+scrollbar-base-color: #646464;
+scrollbar-3dlight-color: #646464;
+scrollbar-highlight-color: #646464;
+scrollbar-shadow-color: #646464;
+}
+
+body{
+
+  background-image: url(BG.jpg);
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+  margin: 0;
+  padding: 0;
+  
+
+  color: white;
+  font-family: sans-serif;
+
+}
+
+
+h1{
+
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation: 
+    typing 3s steps(200, end),
+    blink-caret .75s step-end infinite;
+
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+}
+
+
+
+
+
+
+header{
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  height: auto;
+}
+
+.container{
+  background-color: rgba(24, 24, 24, 0.79);
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  border-radius: 5px;
+  height: auto;
+  
+}
+
+.button-28 {
+appearance: none;
+background-color: transparent;
+border: 2px solid #1A1A1A;
+border-radius: 15px;
+box-sizing: border-box;
+color: #3B3B3B;
+cursor: pointer;
+display: inline-block;
+font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+font-size: 16px;
+font-weight: 600;
+line-height: normal;
+margin: 0;
+min-height: 60px;
+min-width: 0;
+outline: none;
+padding: 16px 28px;
+text-align: center;
+text-decoration: none;
+transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+width: 100%;
+will-change: transform;
+}
+
+.button-28:disabled {
+pointer-events: none;
+}
+
+.button-28:hover {
+color: #fff;
+background-color: #1A1A1A;
+box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+transform: translateY(-2px);
+}
+
+.button-28:active {
+box-shadow: none;
+transform: translateY(0);
+}
+
+#Biography{
+
+  background-color: rgba(24, 24, 24, 0.79);
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 400px;
+  border-radius: 5px;
+  height: auto;
+  
+
+}
+
+#How{
+
+  background-color: rgba(24, 24, 24, 0.79);
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 400px;
+  border-radius: 5px;
+  height: auto;
+
+}
+
+#Learned{
+
+  background-color: rgba(24, 24, 24, 0.79);
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 400px;
+  border-radius: 5px;
+  height: auto;
+
+}
+
+#Friend{
+
+  background-color: rgba(24, 24, 24, 0.79);
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 400px;
+  border-radius: 5px;
+  height: auto;
+
+}
+
+
+
+a{
+
+  text-decoration: none;
+  color: green;
+
+
+}
+
+.list{
+
+  list-style-type: none;
+  max-width: 100%;
+  height: auto;
+}
+
+.Referencething{
+
+  list-style:circle
+
+
+
+}
+
+.uglycat{
+
+  max-width: 100%;
+  height: auto;
+
+}
+
+.python{
+
+  max-width: 50%;
+  height: auto;
+
+
+}
+
+.ifinitypic{
+
+max-width: 100%;
+height: auto;
+
+}
+
+.Links{
+  text-decoration:underline;
+  color: white;
+  font-size: 13px;
+  text-align: center;
+  margin-left: 5px;
+}
+
+.Reference{
+
+  color: rgb(70, 228, 249);
+  text-align: center;
+  line-height: 1.5px;
+  text-decoration: underline;
+
+
+}
+
+.link{
+
+margin: 100px auto;
+height: auto;
+text-overflow: ellipsis;
+
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  margin-right: 5px; /* add spacing between items */
+}
+
+.imgfriends{
+
+  width:  100px;
+  height: 100px;
+  object-fit: cover;
+  list-style: none;
+  border-radius: 10%;
+
+}
+
+.caption{
+
+  text-align: center;
+
+
+}
+
+.Tekhne{
+  color: #ffffff;
+  background: linear-gradient(to right, #000000 15%, white 10%, #000000 35%);
+  background-position: 0;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+  animation-fill-mode: forwards;
+  -webkit-text-size-adjust: none;
+  font-weight: 600;
+  font-size: 50px;
+  text-decoration: none;
+  white-space: nowrap;
+    
+
+}
+
+@keyframes shine{
+  0%{
+    background-position: 0}
+  60%{
+    background-position: 190px}
+  100%{
+    background-position: 290px}
+}
+
+::-webkit-scrollbar { width: 8px; height: 3px;}
+::-webkit-scrollbar-button {  background-color: #666; }
+::-webkit-scrollbar-track {  background-color: #646464;}
+::-webkit-scrollbar-track-piece { background-color: #000;}
+::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
+::-webkit-scrollbar-corner { background-color: #646464;}
+::-webkit-resizer { background-color: #666;}
+
+
+#loader2{
+position: absolute;
+left: 50%;
+top: 50%;
+z-index: 1;
+width: 120px;
+height: 120px;
+margin: -76px 0 0 -76px;
+border: 100px;
+border-radius: 50%;
+border-top: 10px solid #ffffff;
+-webkit-animation: spin 2s linear infinite;
+animation: spin 2s linear infinite;
+}
+
+/* start.html   */
+
+.Starter{
+background-color: black;
+background-image: none;
+margin: 0;
+padding: 0;
+}
+
+
+
+#loader {
+position: absolute;
+left: 50%;
+top: 50%;
+z-index: 1;
+width: 120px;
+height: 120px;
+margin: -76px 0 0 -76px;
+border: 10px solid #000000;
+border-radius: 50%;
+border-top: 20px solid #101010;
+-webkit-animation: spin 2s linear infinite;
+animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+0% { -webkit-transform: rotate(0deg); }
+100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+0% { transform: rotate(0deg); }
+100% { transform: rotate(360deg); }
+}
+
+
+.text-box {
+  margin-left: 44vw;
+  margin-top: 42vh;
+
+}
+
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block;
+  border-radius: 100px;
+  transition: all .2s;
+  position: absolute;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+  background-color: #151515;
+  color: #b6b6b6;
+}
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 120px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s;
+}
+
+.btn-white::after {
+  border-radius: 130px;
+  background-color: #111111;
+}
+
+.btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+.btn-animated {
+  animation: moveInBottom 1s ease-out;
+  animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+  0% {
+      opacity: 0;
+      transform: translateY(30px);
+  }
+
+  100% {
+      opacity: 1;
+      transform: translateY(0px);
+  }
+}
